@@ -30,12 +30,12 @@ public class CalculatorTest {
 
     @Test
     public void testGetSum() throws Exception {
-        assertEquals(15, calculator.getSum(7,8));
+        assertEquals(-7, calculator.getSum(-5,-2));
     }
 
     @Test
     public void testGetDivide() throws Exception {
-        assertEquals(20, calculator.getDivide(100,5));
+        assertEquals(-20, calculator.getDivide(100,-5));
     }
 
     @Test
